@@ -525,11 +525,18 @@ namespace teddybot {
      * @param brightness brightness of motor (0 to 255). eg: 180
      */
     //% blockId="LED" block="Light %Leds|led(s) at brightness %brightness"
-    //% weight=80
+    //% weight=80    
+    //% brightness.min=0 brightness.max=255
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     //% subcategory=LEDS   
     export function leds(leds: Leds, brightness: number): void {
         if (!initialized) {
             initPCA9685() 
+        }
+
+        brightness = brightness * 16; // map 255 to 4096
+        if (brightness >= 4096) {
+            brightness = 4095
         }
 
         if ((leds == 0x01)) {
