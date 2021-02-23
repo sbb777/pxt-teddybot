@@ -1,21 +1,27 @@
 {
-    "name": "pxt-teddybot",
-    "description": "",
+    "name": "teddybot",
+    "version": "0.3.6",
+    "description": "Extension for SYRobot Teddybot",
+    "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
+        "core": "*",      
+        "neopixel": "github:microsoft/pxt-neopixel"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
+        "README.md",
+        "main.ts",        
+        "enums.d.ts",
+        "NecIR.cpp",
+        "teddybotmIR.cpp",
+        "ReceiverIR.cpp",
+        "NecIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "shims.d.ts"   
     ],
     "testFiles": [
         "test.ts"
     ],
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+    "public": true,
+    "preferredEditor": "tsprj"
 }

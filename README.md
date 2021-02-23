@@ -1,31 +1,40 @@
+# teddybot
 
-> Open this page at [https://sbb777.github.io/pxt-teddybot/](https://sbb777.github.io/pxt-teddybot/)
+Extension for SYRobot teddybot
 
-## Use as Extension
+## Feature
 
-This repository can be added as an **extension** in MakeCode.
+- Little robot car over microbit
+- On board battery source
+- Drive 2x metal DC Motors
+- On board buzzer
+- On board 2x RGB Neo Pixels
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/sbb777/pxt-teddybot** and import
+# Blocks Preview
+![image])
 
-## Edit this project ![Build status badge](https://github.com/sbb777/pxt-teddybot/workflows/MakeCode/badge.svg)
+# Hardware Preview
+## Front
+![image]()
 
-To edit this repository in MakeCode.
+## Back
+![image](https://user-images.githubusercontent.com/3390845/2fc3.png)
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/sbb777/pxt-teddybot** and click import
 
-## Blocks preview
+----------
 
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
+For more infomation please visit [http://syrobot.co.kr/](http://syrobot.co.kr/ "TeddyBot 테디봇")
 
-![A rendered view of the blocks](https://github.com/sbb777/pxt-teddybot/raw/master/.github/makecode/blocks.png)
+## License
 
-#### Metadata (used for search, rendering)
+MIT
+
+## Supported targets
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+(The metadata above is needed for package search.)
+
+```package
+teddybot=github:sbb777/pxt-teddybot
+
+```
