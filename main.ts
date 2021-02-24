@@ -237,6 +237,15 @@ namespace teddybot {
             case 0xad52: irdata = 82; break;
             case 0xa55a: irdata = 90; break;
             case 0xe31c: irdata = 28; break;
+            case 0xba45: irdata = 69; break;
+            case 0xb946: irdata = 70; break;
+            case 0xb847: irdata = 71; break;
+            case 0xbb44: irdata = 68; break;
+            case 0xbf40: irdata = 64; break;
+            case 0xbc43: irdata = 67; break;
+            case 0xf807: irdata = 7; break;
+            case 0xea15: irdata = 21; break;
+            case 0xf609: irdata = 9; break;        
             default:
                 irdata = -1;
         }
