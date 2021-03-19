@@ -19,6 +19,15 @@
         "RemoteIR.h",
         "shims.d.ts"   
     ],
+
+    
+    "targetVersions": {
+        "branch": "v3.1.51",
+        "tag": "v3.1.51",
+        "commits": "https://github.com/microsoft/pxt-microbit/commit/65ac88bc2ff284776ce965c59b9ccee8c087d034",
+        "target": "3.1.51",
+        "pxt": "6.9.9"
+    },
     "testFiles": [
         "test.ts"
     ],
